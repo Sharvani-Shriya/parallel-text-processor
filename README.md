@@ -31,7 +31,7 @@ A powerful full-stack application for processing, analyzing, and scoring large t
 -   **Framework**: React (Vite)
 -   **Routing**: React Router v6
 -   **Styling**: Vanilla CSS (Custom modern design)
-
+ 
 ## 📂 Project Structure
 
 ```
@@ -121,6 +121,29 @@ parallel-text-processor/
 -   `GET /search`: Search text across processed files.
 -   `GET /export`: Download CSV export of analysis.
 -   `GET /email_summary`: Send analysis summary via email.
+
+## 🚀 Deployment
+
+This application can be deployed to **Render** (recommended) or **Vercel**.
+
+### Quick Deployment Steps
+
+1. **Push your code to GitHub**
+2. **Set up MongoDB Atlas** (free tier available)
+3. **Deploy to Render or Vercel** following our guides
+
+### Deployment Guides
+
+- **[DEPLOYMENT_CHECKLIST.md](DEPLOYMENT_CHECKLIST.md)** - Quick reference for deployment
+- **[DEPLOYMENT.md](DEPLOYMENT.md)** - Comprehensive deployment guide
+- **[DEPLOYMENT_README.md](DEPLOYMENT_README.md)** - Overview of deployment files
+
+### Deployment Platforms
+
+- **Render** (Recommended) - Full-stack deployment (backend + frontend)
+- **Vercel** - Frontend deployment (requires separate backend hosting)
+
+Both platforms offer free tiers perfect for getting started!
 
 ## 🤝 Contributing
 

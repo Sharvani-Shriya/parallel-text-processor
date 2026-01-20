@@ -1,5 +1,7 @@
+import { API_BASE_URL } from '../config/api';
+
 export const simulatedLogin = async (email, password) => {
-    const response = await fetch('http://127.0.0.1:8000/login', {
+    const response = await fetch(`${API_BASE_URL}/login`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded',
@@ -14,7 +16,7 @@ export const simulatedLogin = async (email, password) => {
 };
 
 export const simulatedSignUp = async (email, password, name = '') => {
-    const response = await fetch('http://127.0.0.1:8000/register', {
+    const response = await fetch(`${API_BASE_URL}/register`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded',

@@ -1,0 +1,11 @@
+{
+    "buildCommand": "cd text-processor-frontend && npm install && npm run build",
+    "outputDirectory": "text-processor-frontend/dist",
+    "framework": "vite",
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ]
+}
