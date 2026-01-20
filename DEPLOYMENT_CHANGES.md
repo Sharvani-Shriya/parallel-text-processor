@@ -84,7 +84,7 @@ Follow: `DEPLOYMENT.md` (Option 2)
 
 ### Backend (Render/Railway/etc.)
 ```
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/dbname
+MONGODB_URI=mongodb+srv://<username>:<password>@<cluster-url>/<database-name>
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 SMTP_USER=your_email@gmail.com

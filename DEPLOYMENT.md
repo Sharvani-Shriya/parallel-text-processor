@@ -19,7 +19,7 @@ Render is ideal for this project as it supports both the Python backend and Reac
 2. Create a free cluster
 3. Create a database user
 4. Whitelist all IPs (0.0.0.0/0) for Render access
-5. Get your connection string (e.g., `mongodb+srv://username:password@cluster.mongodb.net/dbname`)
+5. Get your connection string (e.g., `mongodb+srv://<username>:<password>@<cluster-url>/<database-name>`)
 
 ### Step 2: Deploy Backend to Render
 
@@ -111,7 +111,7 @@ Vercel is great for the frontend, but you'll need to deploy the backend elsewher
 
 ### Backend (.env)
 ```env
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/dbname
+MONGODB_URI=mongodb+srv://<username>:<password>@<cluster-url>/<database-name>
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 SMTP_USER=your_email@gmail.com
